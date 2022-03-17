@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url(nav.css);
+@import url(footer.css);
+@import url(DashBoard.css);
+@import url(section.css);
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+    margin-top: 0%;
+    background-color: black;
+}
+
+header{
+    height: 650px;
+    background-image: url(../img/green_nebula_by_rychveldir_deya7av.png);
+    background-size: cover;
+    padding-left: 80px;
+}
+
+h1{
+    margin-top: 0%;
+    color: #00b5b8;
+    padding: 150px 0 50px 10px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+header p{
+    color: white;
+    font-size: 18px;
+}
+
+.texto-youtube{
+    font-size: 27px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+
+/* header a{
+    color: white;
+    font-weight: 800;
+    background-color: #a01a58;
+    font-size: 25px;
+    border-radius: 24px;
+    padding: 18px;
+    margin-left: 130px;
+}
+
+header a:hover{
+    box-shadow: #0091ad;
+} */
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-left: 90px;
+}
+.btn-neon:hover{
+    background: #00b8b8;
+    box-shadow: 0 0 10px #00b8b8, 0 0 40px #00b8b8, 0 0 80px #00b8b8;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#00b8b8);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#00b8b8);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#00b8b8);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#00b8b8);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    float: right;
+    /* position: fixed;  */
+}
+
+.pc-bar ul{
+    list-style: none;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+
+
+.pc-bar ul li a{
+    font-size: 15px;
+    color: white;
+    padding: 20px 70px;
+}
+
+.pc-bar ul li a:hover{
+    background: linear-gradient(90deg,transparent ,
+    #00b8b8 , transparent );
+}
+
+.btn-inicio-pcbar img{
+    max-height: 58px;
+    max-width: 58px;
+    margin-left: 10px;
+    animation-name: logoAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.btn-inicio-pcbar img:hover{
+    background: radial-gradient(circle, transparent, #00b8b8 );
+    border-radius: 26px;
+    box-shadow:  0 0 10px #00b8b8 , 0 0 40px #00b8b8 , 0 0 80px #00b8b8  ;
+}
+
+/* @keyframes logoAnimation{
+    0%{transform: rotate(-1deg);}
+    10%{transform: rotate(-38deg);}
+    20%{transform: rotate(-76deg);}
+    30%{transform: rotate(-114deg);}
+    40%{transform: rotate(-152deg);}
+    50%{transform: rotate(-190deg);}
+    60%{transform: rotate(-228deg);}
+    70%{transform: rotate(-266deg);}
+    80%{transform: rotate(-304deg);}
+    90%{transform: rotate(-342deg);}
+    100%{transform: rotate(-360deg);}
+} */
+
+@keyframes logoAnimation{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}

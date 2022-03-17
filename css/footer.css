@@ -1,0 +1,45 @@
+footer{
+    background-color: #3a008634;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.redes-sociales ul{
+    width: 500px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+footer a img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.btn-subir-arriba{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-subir-arriba a img{
+    max-height: 70px;
+    max-width: 70px;
+    background-color: #00b8b8;
+    border-radius: 50%;
+}
+
+.btn-subir-arriba a img:hover{
+    box-shadow: -4px 4px 27px 26px rgba(84,219,219,0.16);
+    -webkit-box-shadow: -4px 4px 27px 26px rgba(84,219,219,0.16);
+    -moz-box-shadow: -4px 4px 27px 26px rgba(84,219,219,0.16);
+}
